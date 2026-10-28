@@ -1,0 +1,48 @@
+# Environment files
+.env
+.env.*
+*.env
+!*.example
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution and packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type-checker and tool caches
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
